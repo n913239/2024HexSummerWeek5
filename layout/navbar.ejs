@@ -1,0 +1,55 @@
+<aside class="navbar navbar-expand-lg bg-body-tertiary vh-100 position-fixed bg-light navbar-light">
+    <div class="container-fluid flex-column px-0 h-100">
+        <div class="w-100">
+            <a class="navbar-brand px-3 mb-4" href="#"><img src="../assets/images/logo-ANSWER.svg" alt="" /></a>
+
+            <ul class="navbar-nav flex-column fw-bold">
+                <li class="nav-item">
+                    <a class="nav-link px-3 border-start border-3 aria-current=" href="index.html">
+                        <span class="material-symbols-outlined align-bottom me-2"> insert_chart </span>Dashboard
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link px-3 border-start border-3 aria-current=" href="index.html">
+                        <span class="material-symbols-outlined align-bottom me-2"> question_answer </span>Question
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link px-3 border-start border-3 aria-current=" href="index.html">
+                        <span class="material-symbols-outlined align-bottom me-2"> video_library </span>Course
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link px-3 border-start border-3 <%= page === 'assignment' ? 'active' : '' %> aria-current=" href="index.html">
+                        <span class="material-symbols-outlined align-bottom me-2"> assignment </span>Assignment
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link px-3 border-start border-3 <%= page === 'admin' ? 'active border-success text-success ' : '' %> aria-current=" href="admin.html">
+                        <span class="material-symbols-outlined align-bottom me-2"> supervisor_account </span>Admin
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link px-3 border-start border-3 aria-current=" href="index.html">
+                        <span class="material-symbols-outlined align-bottom me-2"> settings </span>Settings
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="d-flex px-2">
+            <div class="flex-shrink-0">
+                <img src="../assets/images/andychen.jpeg" alt="..." width="48" height="48" class="rounded-circle object-fit-cover" />
+            </div>
+            <div class="flex-grow-1 ms-3">
+                <p class="fw-bold">Andy Chen</p>
+                <a href="mailto:andy0401@mail.com" class="fs-7 text-secondary">andy0401@mail.com</a>
+            </div>
+        </div>
+    </div>
+</aside>
